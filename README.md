@@ -4,6 +4,10 @@
 
 This project implements a local AI-powered agent that interacts with a SQLite database using the Model Context Protocol (MCP). It enables natural language queries to add, search, and retrieve data from a local database, leveraging Ollama for LLM inference and LlamaIndex for agent orchestration. The design emphasizes reliability for local development by using Stdio transport, avoiding network dependencies.
 
+## Architecture
+
+![Architecture Diagram](architecture.gif)
+
 ### Key Technologies
 - **MCP (Model Context Protocol)**: Standardizes tool calling between AI models and external resources.
 - **Ollama**: Runs open-source LLMs locally (e.g., Llama 3.2 3B) for privacy and offline capability.
